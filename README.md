@@ -54,7 +54,7 @@ On a Mac, run:
 For Windows:
 
 ```
-C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://localhost:3000
+& "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" '--ignore-certificate-errors' '--unsafely-treat-insecure-origin-as-secure=https://localhost:3000"'
 ```
 
 18. In your local project, launch the app with `npm start`. You should see Chrome open to `https:localhost:3000`. 
