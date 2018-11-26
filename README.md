@@ -64,8 +64,8 @@ For Windows **IMPORTANT: you must close any open Chrome instances before running
 & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" '--ignore-certificate-errors' '--unsafely-treat-insecure-origin-as-secure=https://localhost:3000"'
 ```
 
-1.  In your local project, launch the app with `npm start`. You should see Chrome open to `https:localhost:3000`. 
-2.  Login with Facebook with the first button then click the second button to register for push notifications. Allow any pop-ups that your browser might block. You can open the Chrome Javascript console to see the responses from Facebook and Firebase as your authenticate. 
+20.  In your local project, launch the app with `npm start`. You should see Chrome open to `https:localhost:3000`. 
+21.  Login with Facebook with the first button then click the second button to register for push notifications. Allow any pop-ups that your browser might block. You can open the Chrome Javascript console to see the responses from Facebook and Firebase as your authenticate. 
 ![Screenshot](images/app.png)
 Now minimize the window to ensure you get the push notification while the app is in the background.
 22. Test the pipeline by pressing the *Test* button in your Facebook app's Webhook settings next to the *feed* . You should get a browser push notification within a few seconds thanking you for feedback and asking if you want to take a survey.
